@@ -1,0 +1,23 @@
+.centro{
+    height: 80vh;;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    font-family: 'Poppins', sans-serif;
+}
+
+#submit{
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 10%;
+    margin-top: 20px;
+    font-family: 'Anton';
+    padding: 10px 15px;
+}
+
+#submit:hover{
+    background-color: red;
+}
